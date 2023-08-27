@@ -1,0 +1,15 @@
+﻿@page
+@model ProfileModel
+
+<div class="profile-container">
+    <h2>@Model.Username's Profile</h2>
+    <div class="profile-image">
+        <img src="@Model.ProfileImageUrl" alt="@Model.Username's profile picture" />
+    </div>
+    <div class="profile-details">
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Joined:</strong> @Model.DateJoined.ToShortDateString()</p>
+        <p>@Model.Bio</p>
+        <button class="btn profile-message-btn">Message</button>
+    </div>
+</div>
