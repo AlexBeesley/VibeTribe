@@ -19,9 +19,9 @@ Ensure you have the .NET SDK installed.
 
 ```dotnet run```
 
-Access the application via `https://localhost:5001` or the appropriate port.
+You can access the application via the appropriate port if not automatically opened by default.
 
 
 _Feedback and Contributions
 We welcome feedback, suggestions, and contributions. Please use the "Contact Us" page on the platform for any questions or suggestions.
-Feel free to modify or expand upon this template as necessary._
+Please feel free to modify or expand upon this template as needed._
